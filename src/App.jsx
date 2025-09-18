@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import "./App.css";
-import Countries from "./Components/Countries";
+import Countries from "./Components/Countries/Countries";
 
 const countriesApi = async () => {
   try {

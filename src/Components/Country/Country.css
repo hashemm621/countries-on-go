@@ -1,0 +1,13 @@
+.country {
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 20px;
+
+  /* align-items: center; */
+  text-align: center;
+
+  gap: 10px;
+}
+.visited {
+  background-color: lightgreen;
+}
