@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { use } from 'react';
 
-const Countries = () => {
+const Countries = ({countiesPromise}) => {
+
+    const countriesData = use(countiesPromise)
+    const countries = countriesData.countries
+    console.log(countries);
     return (
         <div>
-            <h1>I want to go Bangladesh</h1>
+            <h1>Total countries in the world : {countries.length}</h1>
         </div>
     );
 };
